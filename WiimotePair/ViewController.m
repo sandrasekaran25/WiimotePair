@@ -36,7 +36,7 @@
 {
   NSLog(@"%@", device.name);
   
-  if (!device.isPaired && !self.attemptingPairing && [device.name containsString:@"Nintendo"])
+  if (!device.isPaired && !self.attemptingPairing && [device.name containsString:@"wiimote"])
   {
     [self.deviceInquiry stop];
     
